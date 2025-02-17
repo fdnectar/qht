@@ -10,12 +10,13 @@
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
     <link href="assets/vendors/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="assets/vendors/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="assets/vendors/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/fontawesome.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"> -->
 
 
@@ -24,8 +25,8 @@
 </head>
 <body>
 
-    <header>
-        <nav class="navbar bg-body-tertiary">
+    <header id="header" class="header sticky-top">
+        <nav class="navbar">
             <div class="container">
                 <!-- <a class="navbar-brand">Navbar</a> -->
                 <h1 class="logo-name">QHT</h1>
@@ -71,11 +72,11 @@
 
     <section class="choose-section section-spacing">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Why Choose Us?</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-3" data-aos="fade-up">
                <div class="col-lg-12">
                     <div class="swiper">
                         <div class="swiper-wrapper">
@@ -133,15 +134,36 @@
         </div>
     </section>
 
+    <section class="choose-section section-spacing">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Work</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
+            </div>
+            <div class="row mt-3" data-aos="fade-up">
+                <div class="col-md-6 mb-3">
+                    <div class="c-video" data-aos="zoom-in-up" data-aos-delay="200">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="c-video" data-aos="zoom-in-up" data-aos-delay="300">
+                        <h6>Video 2</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="service-section section-spacing">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Our Services</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -152,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="200">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -163,7 +185,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="300">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -174,7 +196,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="400">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -185,7 +207,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="500">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -196,7 +218,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="600">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -207,7 +229,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <div class="service">
+                    <div class="service" data-aos="zoom-in-up" data-aos-delay="700">
                         <div class="media-left">
                             <img src="assets/img/eye.png" alt="">
                         </div>
@@ -240,15 +262,15 @@
         </div>
     </section> -->
 
-    <section class="service-section section-spacing">
+    <section class="review-section section-spacing">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Patient Testimonials</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-4 mb-3">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="zoom-in-up" data-aos-delay="200">
                         <div class="user-header">
                             <div class="avatar">
                                 <img src="assets/img/user.png" alt="">
@@ -262,7 +284,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="zoom-in-up" data-aos-delay="300">
                         <div class="user-header">
                             <div class="avatar">
                                 <img src="assets/img/user.png" alt="">
@@ -276,7 +298,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="zoom-in-up" data-aos-delay="400">
                         <div class="user-header">
                             <div class="avatar">
                                 <img src="assets/img/user.png" alt="">
@@ -293,15 +315,83 @@
         </div>
     </section>
 
+    <section class="process-section section-spacing">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Hair Transplant Process</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
+            </div>
+        </div>
+
+        <div class="container mt-5" data-aos="fade-up">
+            <div class="overflow-auto" style="scrollbar-width: none; -ms-overflow-style: none;">
+                <ul class="nav nav-pills mb-3 border-bottom border-2 flex-nowrap" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold active position-relative text-nowrap" id="consultation-tab" data-bs-toggle="pill" data-bs-target="#consultation" type="button" role="tab" aria-controls="consultation" aria-selected="true">Consultation</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold position-relative text-nowrap" id="pre-surgery-tab" data-bs-toggle="pill" data-bs-target="#pre-surgery" type="button" role="tab" aria-controls="pre-surgery" aria-selected="false">Pre-Surgery Prep</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold position-relative text-nowrap" id="procedure-tab" data-bs-toggle="pill" data-bs-target="#procedure" type="button" role="tab" aria-controls="procedure" aria-selected="false">QHT Procedure</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold position-relative text-nowrap" id="post-op-tab" data-bs-toggle="pill" data-bs-target="#post-op" type="button" role="tab" aria-controls="post-op" aria-selected="false">Post-Op Care</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-bold position-relative text-nowrap" id="progress-tab" data-bs-toggle="pill" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">Progress Tracking</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content border rounded-3 p-3" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="consultation" role="tabpanel" aria-labelledby="consultation-tab">
+                    <h2>Consultation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis officia architecto, aliquid natus ipsum? Repellendus inventore minus quisquam? Atque eum at fuga alias iure quidem earum quisquam ratione! Culpa.</p>
+                    <div class="c-video mt-3">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pre-surgery" role="tabpanel" aria-labelledby="pre-surgery-tab">
+                    <h2>Pre-Surgery Preparation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quas fugiat, minus debitis eos praesentium laborum. At sit a exercitationem tempore voluptatem molestiae pariatur libero ipsa, sequi officiis distinctio asperiores.</p>
+                    <div class="c-video mt-3">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="procedure" role="tabpanel" aria-labelledby="procedure-tab">
+                    <h2>QHT Procedure</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, atque deleniti et rem quisquam vel, laborum cumque illum a dolor recusandae ipsam, ea porro culpa! Numquam odio explicabo est suscipit.</p>
+                    <div class="c-video mt-3">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="post-op" role="tabpanel" aria-labelledby="post-op-tab">
+                    <h2>Post-Op Care</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, atque deleniti et rem quisquam vel, laborum cumque illum a dolor recusandae ipsam, ea porro culpa! Numquam odio explicabo est suscipit.</p>
+                    <div class="c-video mt-3">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="progress" role="tabpanel" aria-labelledby="progress-tab">
+                    <h2>Progress Tracking</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, atque deleniti et rem quisquam vel, laborum cumque illum a dolor recusandae ipsam, ea porro culpa! Numquam odio explicabo est suscipit.</p>
+                    <div class="c-video mt-3">
+                        <h6>Video 1</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="service-section section-spacing">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Frequently Asked Question</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
             </div>
             <div class="row mt-5">
                 <div class="col-md-12">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion" id="accordionExample" data-aos="fade-up">
                         <div class="accordion-item mb-3">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button faq__title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -346,13 +436,13 @@
 
     <section class="service-section section-spacing">
         <div class="container">
-            <div class="section-title">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Pricing & Financing</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 mb-3">
-                    <div class="pricing box-shadow hover-up hover-line pricing--best">
+                    <div class="pricing box-shadow hover-up hover-line pricing--best" data-aos="zoom-in-up" data-aos-delay="200">
                         <div class="pricing__price-box">
                           <h3 class="pricing__title">Standard</h3>
                           <span class="pricing__price">Free</span>
@@ -364,7 +454,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="pricing box-shadow hover-up hover-line pricing--best">
+                    <div class="pricing box-shadow hover-up hover-line pricing--best" data-aos="zoom-in-up" data-aos-delay="300">
                         <div class="pricing__price-box">
                           <h3 class="pricing__title">Standard</h3>
                           <span class="pricing__price">Transparent pricing</span>
@@ -376,7 +466,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="pricing box-shadow hover-up hover-line pricing--best">
+                    <div class="pricing box-shadow hover-up hover-line pricing--best" data-aos="zoom-in-up" data-aos-delay="500">
                         <div class="pricing__price-box">
                           <h3 class="pricing__title">Standard</h3>
                           <span class="pricing__price">EMI Option</span>
@@ -390,16 +480,118 @@
             </div>
         </div>
     </section>
+
+    <section class="section-spacing">
+        <div id="map" data-aos="zoom-in-up" data-aos-delay="200">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.701767127!2d72.71412823032126!3d19.082482211550346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1739812165692!5m2!1sen!2sin" width="600" class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="service-section section-spacing mt-5">
+        <div class="container">
+            <div class="section-title" data-aos="zoom-in-up">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, libero?</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="contact-form" data-aos="zoom-in-up" data-aos-delay="200">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <input type="text" placeholder="Name" id="fname" name="fname">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="email" placeholder="Email" id="fname" name="fname">
+                                </div>
+                                <div class="col-12 col-md-12">
+                                    <input type="text" placeholder="Subject" id="fname" name="fname">
+                                </div>
+                                <div class="col-12 col-md-12">
+                                    <textarea name="" id="" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn cta-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer-area" data-aos="zoom-in-up">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top-item">
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <div class="footer-top-text text-center">
+                                <ul class="footer-ul">
+                                    <li><a href="home.html">home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="contact.html">contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-12">
+                        <div class="footer-icon">
+                            <ul class="d-flex">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-sm-12">
+                        <div class="footer-content">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur vero, odit minus commodi maiores 
+                                aspernatur consequuntur molestias at debitis, eligendi suscipit pariatur neque? Incidunt, vel.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-8 col-sm-12">
+                        <div class="footer-adress">
+                            <ul>
+                                <li><a href="#"><span>Email:</span> info@example.com</a></li>
+                                <li><a href="#"><span>Tel:</span> +91 7777777777</a></li>
+                                <li><a href="#"><span>Adress:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ab!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <div class="footer-reserved">
+                            <ul>
+                                <li>Copyright © 2025 QHT All rights reserved.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <a href="#" id="scrollUP" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fas fa-phone"></i></a>
 
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/php-email-form/validate.js"></script>
-    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/vendors/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendors/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/js/fontawesome.min.js"></script>
   
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
@@ -431,6 +623,7 @@
             }
         });
 
+        AOS.init();
     </script>
 </body>
 </html>
